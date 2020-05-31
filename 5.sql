@@ -49,4 +49,4 @@ WHERE goods.id not in (SELECT incgoods.goods
                    )
 AND goods.id not in (SELECT recgoods.goods
                    FROM recgoods
-                   )
+                   );
