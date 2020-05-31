@@ -2,13 +2,13 @@
 
 1. [Цена  на дату](https://github.com/AlbertLatypov/postgreeFIRM/blob/master/1.sql)
 
-2. [Прайсы](https://github.com/kirainluck/SQL-tasks/wiki/Прайсы)
+2. [Прайсы](https://github.com/AlbertLatypov/postgreeFIRM/blob/master/2.sql)
 
    * Давайте наполним базу псевдослучайными тестовыми данными
    * Давайте проверим что прайсы партнеров не пересекаются
    * Давайте напишем вывод прайсов конкретного партнера на заданную дату
 
-3. [Запросы](https://github.com/kirainluck/SQL-tasks/wiki/Запросы)
+3. [Запросы](https://github.com/AlbertLatypov/postgreeFIRM/blob/master/3.sql)
 
     * Покупки: Город, Дата, Номер документа, Название группы товара, Название товара, Объем. Выборка за второй квартал 2020 года, Объемом более 10 м3
 
@@ -16,11 +16,11 @@
 
     * Выбрать 10 случайных записей из запроса с продажами.
 
-4. [Контрольная](https://github.com/kirainluck/SQL-tasks/wiki/Контрольная-group-by)
+4. [Контрольная](https://github.com/AlbertLatypov/postgreeFIRM/blob/master/4.sql)
 
       Переписать запрос без слов GROUP BY используя стандартные возможности SQL
 
-5. [Вставка, изменение и удаление](https://github.com/kirainluck/SQL-tasks/wiki/Вставка,-изменение-и-удаление)
+5. [Вставка, изменение и удаление](https://github.com/AlbertLatypov/postgreeFIRM/blob/master/5.sql)
 
       * Давайте создадим и заполним таблицу по поставкам в разрезе дней и складов: 
 
@@ -32,24 +32,24 @@
 
       * Давайте удалим из таблицы товаров все товары по которым не было продаж и поставок
 
-6. [Посчитать остатки на складах](https://github.com/kirainluck/SQL-tasks/wiki/Посчитать-остатки-на-складах) по всем дням периода с 1 марта 2020 года по 14 марта 2020 года
+6. [Посчитать остатки на складах](https://github.com/AlbertLatypov/postgreeFIRM/blob/master/6.sql) по всем дням периода с 1 марта 2020 года по 14 марта 2020 года
 
-7. [Прогноз продаж](https://github.com/kirainluck/SQL-tasks/wiki/Прогноз-продаж) через хранимую процедуру
+7. [Прогноз продаж]() через хранимую процедуру
 
-8. [Триггер](https://github.com/kirainluck/SQL-tasks/wiki/Триггер)
+8. [Триггер]()
 
-9. [Контрольная на создание последовательности](https://github.com/kirainluck/SQL-tasks/wiki/Контрольная-на-создание-последовательности)
+9. [Контрольная на создание последовательности]()
 
-10. [Контрольная. Дерево товаров](https://github.com/kirainluck/SQL-tasks/wiki/Контрольная-дерево-товаров)
+10. [Контрольная. Дерево товаров]()
 
-11. [Дерево клиентов. Lateral последовательностей](https://github.com/kirainluck/SQL-tasks/wiki/Дерево-клиентов-lateral-последовательностей)
+11. [Дерево клиентов. Lateral последовательностей]()
 
-12. [Оконные функции](https://github.com/kirainluck/SQL-tasks/wiki/Оконные-функции)
+12. [Оконные функции]()
 
-13. [Прогноз через Python](sql_task.ipynb)
+13. [Прогноз через Python]()
 
 14. Соревнование по мерам и измерениям (в классе)
 
-15. [Заполнение OLAP базы](./15).
+15. [Заполнение OLAP базы]()
 
-16. [Создать MOLAP icCube и написать MDX](https://github.com/kirainluck/SQL-tasks/wiki/ICCube)
+16. [Создать MOLAP icCube и написать MDX]()
