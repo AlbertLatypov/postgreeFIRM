@@ -1,6 +1,6 @@
 # Задачи по предмету "Системы обработки аналитической информации"
 
-1. [Цена  на дату](https://github.com/kirainluck/SQL-tasks/wiki/Цена-на-дату)
+1. [Цена  на дату](https://github.com/AlbertLatypov/postgreeFIRM/blob/master/1.sql)
 
 2. [Прайсы](https://github.com/kirainluck/SQL-tasks/wiki/Прайсы)
 
