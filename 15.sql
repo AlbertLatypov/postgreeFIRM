@@ -78,3 +78,35 @@ select t,
        (select * from generate_series(1, 500) where t > 0 order by random() limit 1),
        (select * from generate_series(1, 2000) where t > 0 order by random() limit 1)
 from generate_series(1, 100) t;
+
+
+
+insert into  bank_income(ddate, summ, client)
+select R.ddate, (R2.volume * R2.price) sum, R.client
+from recept R
+          join recgoods R2 on R.id = R2.id
+limit 50000;
+
+
+
+insert into cassa_income(ddate, summ, client)
+select R.ddate, (R2.volume * R2.price) sum, R.client
+from recept R
+         join recgoods R2 on R.id = R2.id
+limit 50000 OFFSET 50000;
+
+
+
+insert into  bank_recept(ddate, summ, client)
+select I.ddate, (I2.volume * I2.price) sum, I.client
+from income I
+         join incgoods I2 on I.id = I2.id
+limit 50000;
+
+
+
+insert into  cassa_recept(ddate, summ, client)
+select I.ddate, (I2.volume * I2.price) sum, I.client
+from income I
+         join incgoods I2 on I.id = I2.id
+limit 50000 offset 50000;
