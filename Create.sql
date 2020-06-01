@@ -23,7 +23,7 @@ create table storages (
   id serial,
   name varchar(10),
   primary key(id)
-  );
+  ); 
 
 create table income (
   id serial,
