@@ -50,6 +50,6 @@
 
 14. Соревнование по мерам и измерениям (в классе)
 
-15. [Заполнение OLAP базы]()
+15. [Заполнение OLAP базы](https://github.com/AlbertLatypov/postgreeFIRM/blob/master/15.sql)
 
 16. [Создать MOLAP icCube и написать MDX]()
