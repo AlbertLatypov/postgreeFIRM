@@ -38,11 +38,11 @@
 
 8. [Триггер]()
 
-9. [Контрольная на создание последовательности]()
+9. [Контрольная на создание последовательности](https://github.com/AlbertLatypov/postgreeFIRM/blob/master/9.sql)
 
-10. [Контрольная. Дерево товаров]()
+10. [Контрольная. Дерево товаров](https://github.com/AlbertLatypov/postgreeFIRM/blob/master/10.sql)
 
-11. [Дерево клиентов. Lateral последовательностей]()
+11. [Дерево клиентов. Lateral последовательностей](https://github.com/AlbertLatypov/postgreeFIRM/blob/master/11.sql)
 
 12. [Оконные функции]()
 
