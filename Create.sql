@@ -121,3 +121,15 @@ create table bank_recept
     summ int,
     client int REFERENCES client (id)
 );
+
+
+
+
+
+create table clients_groups(
+  id serial,
+  name text,
+  parent int references clients_groups(id),
+  primary key(id)
+);
+alter table clients add clients_groups int references clients_groups(id);
