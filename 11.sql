@@ -1,39 +1,32 @@
+----- задание 1:
 WITH RECURSIVE r AS (
-   SELECT id, par_id 
-   FROM drevo
+	SELECT a.id, a.name, a.parent, b.name par_name
+	FROM clients_groups a join clients_groups b on a.parent = b.id
 
-   union
+	union
    
-   select drevo.id, r.par_id
-	from drevo join r on drevo.par_id = r.id
-	where r.par_id is not null
-)
-SELECT * FROM r
-
-
-WITH RECURSIVE r AS (
-   SELECT id, par_id 
-   FROM drevo
-
-   union
-   
-   select drevo.id, r.par_id
-	from drevo join r on drevo.par_id = r.id
-	where r.par_id is not null
+	select c.id, c.name, r.parent, d.name par_name
+	from clients_groups c join r on c.parent = r.id
+	join clients_groups d on  r.parent = d.id
+	where r.parent is not null
 )
 
 
 select 
-drevo_goods.good_id,
-drevo_goods.good_gr
-from drevo_goods join drevo on drevo_goods.good_gr = drevo.id
+clients.id,
+clients.name,
+clients_groups.id,
+clients_groups.name
+from clients join clients_groups on clients.clients_groups = clients_groups.id
 
 union
 
 select
-drevo_goods.good_id,
-r.par_id
-from drevo_goods join r on drevo_goods.good_gr = r.id
+clients.id,
+clients.name,
+r.parent,
+r.par_name
+from clients join r on clients.clients_groups = r.id
 
 
 
