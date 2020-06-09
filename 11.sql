@@ -1,3 +1,27 @@
+WITH RECURSIVE r AS (
+   SELECT id, par_id 
+   FROM drevo
+
+   union
+   
+   select drevo.id, r.par_id
+	from drevo join r on drevo.par_id = r.id
+	where r.par_id is not null
+)
+SELECT * FROM r
+
+
+
+
+
+
+
+
+
+
+
+
+----- задание 2:
 with recursive r as (
 	select 1 as col1, 1 as col2
 	
